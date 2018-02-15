@@ -55,6 +55,8 @@
         <module>features/org.wso2.carbon.identity.authz.server.feature</module>
         <module>features/org.wso2.carbon.identity.context.rewrite.server.feature</module>
 
+        <module>components/org.wso2.carbon.identity.auth.pat.validation.valve</module>
+
     </modules>
 
     <repositories>
@@ -385,6 +387,9 @@
         <maven.surefire.plugin.version>2.18.1</maven.surefire.plugin.version>
         <slf4j.api.version>1.5.5</slf4j.api.version>
         <powermock.version>1.6.4</powermock.version>
+
+        <org.wso2.carbon.identity.auth.pat.validation.valve.version>${project.version}
+        </org.wso2.carbon.identity.auth.pat.validation.valve.version>
 
     </properties>
 
